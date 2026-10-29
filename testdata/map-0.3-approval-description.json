@@ -1,0 +1,63 @@
+{
+  "@context": "https://mailschema.org/contexts/map-0.3.jsonld",
+  "@type": "MailAction",
+  "@id": "urn:uuid:b1a6b8d1-a329-5028-93d0-9a14d3f34a21",
+  "profile": "https://mailschema.org/profiles/map/0.3",
+  "type": {
+    "id": "https://mailschema.org/types/campaign-send-approval",
+    "version": "0.1",
+    "contractDigest": "sha-256:de3c88a0712adb1d0c6e82f437b825c83520d8e1c44c7b032a2cfcfe5ce55731"
+  },
+  "issuedAt": "2026-10-29T03:55:31Z",
+  "expiresAt": "2026-10-29T04:25:29Z",
+  "inLanguage": "en",
+  "service": {
+    "id": "https://api.nitrosend.com",
+    "tenant": "urn:nitrosend:brand:13920"
+  },
+  "recipient": "tundjetbrain@gmail.com",
+  "subject": {
+    "id": "https://api.nitrosend.com/v1/my/campaigns/15572",
+    "title": "Biweekly Go Consensus Integrity Summary v2"
+  },
+  "terms": {
+    "id": "https://api.nitrosend.com/v1/my/map/approvals/502",
+    "version": "sha-256:974d18e66e97f03318cb3b6e0fa125f171ff5214b53d99df84875cca64197db6"
+  },
+  "human": {
+    "url": "https://app.nitrosend.com/approve/502?account_id=13736&brand_id=13920"
+  },
+  "details": {
+    "summary": "aether-run asked to send \"Biweekly Go Consensus Integrity Summary v2\" to 1 recipient.",
+    "requester": "aether-run",
+    "content": {
+      "id": "https://api.nitrosend.com/v1/my/templates/25370",
+      "revision": "2",
+      "digest": "sha-256:16ba4d88e508cd88864685ecd8afa0415a6b8dc810f0bdc3eb11d19d2479a4d9",
+      "title": "Biweekly Go Consensus Integrity Summary v2"
+    },
+    "sender": {
+      "mailbox": "hello@aethergoverifier.nitrosend.net",
+      "name": "AetherGo Systems",
+      "replyTo": "hello@aethergoverifier.nitrosend.net"
+    },
+    "audience": {
+      "id": "urn:nitrosend:campaign-send:3441:audience",
+      "revision": "e37d15295e30e4bc744a2b62078a2cf0064733c5f60e0839c370b4a0447aa5f7",
+      "count": 1,
+      "label": "1 contact list"
+    },
+    "schedule": {
+      "mode": "scheduled",
+      "at": "2026-10-29T04:25:29Z"
+    }
+  },
+  "operations": [
+    {
+      "id": "approve"
+    },
+    {
+      "id": "decline"
+    }
+  ]
+}
